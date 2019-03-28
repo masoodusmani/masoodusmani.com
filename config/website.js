@@ -8,6 +8,9 @@ module.exports = {
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription: 'Thoughts on software, game design, music and anime',
   author: 'Masood Ahmed Usmani', // Author for schemaORGJSONLD
+  minibio: `
+    A front end developer who loves shiny things.
+  `,
   organization: 'Entrayn',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional

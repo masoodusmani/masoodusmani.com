@@ -17,9 +17,7 @@ module.exports = {
     image: config.siteLogo,
     author: {
       name: config.author,
-      minibio: `
-        A front end developer who loves shiny things.
-      `,
+      minibio: config.minibio,
     },
     organization: {
       name: config.organization,
@@ -87,7 +85,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `GOOGLE_ID`,
+        trackingId: `UA-137261452-1`,
       },
     },
     {
@@ -143,12 +141,6 @@ module.exports = {
             title: 'Blog RSS Feed',
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-137261452-1',
       },
     },
     {
