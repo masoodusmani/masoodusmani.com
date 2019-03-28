@@ -1,6 +1,7 @@
 ---
 slug: invisible-post
 date: 2019-01-01
+author: 'Masood Ahmed Usmani'
 title: 'this post is a ghost'
 description: 'this post has all of the right fields'
 categories: ['test']
