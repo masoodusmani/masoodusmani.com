@@ -35,7 +35,7 @@ const Hero = () => (
           max-width: ${rhythm(15)};
         `}
       >
-        Your blog says the things you want to say.
+        🚧 Under construction.
       </h1>
     </Container>
     <div
@@ -67,6 +67,7 @@ export default function Index({ data: { site, allMdx } }) {
       site={site}
       headerColor={theme.colors.white}
       headerBg={theme.brand.primary}
+      noSubscribeForm={true}
     >
       <Hero />
       <Container
