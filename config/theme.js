@@ -1,6 +1,7 @@
 import { darken, lighten } from 'polished'
 import { fonts } from '../src/lib/typography'
 
+// #231937 is the dark blue colour used in the favicon
 const brand = {
   // primary: '#0078CC',
   // primary: '#5348FF',
